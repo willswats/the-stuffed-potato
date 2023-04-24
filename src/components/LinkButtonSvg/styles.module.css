@@ -1,0 +1,22 @@
+.link-button-svg svg {
+  width: 20rem;
+  height: 20rem;
+  border: 1px solid #fff;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  transition: background-color 0.1s;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.link-button-svg svg:hover {
+  fill: #000;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .link-button-svg svg {
+    width: 15rem;
+    height: 15rem;
+  }
+}

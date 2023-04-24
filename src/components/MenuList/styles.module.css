@@ -1,0 +1,25 @@
+.menu-list {
+  display: flex;
+  flex-direction: column;
+  width: 40rem;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  padding: 2rem;
+  margin-bottom: 1rem;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.menu-list__top {
+  display: flex;
+}
+
+.menu-list__top-title {
+  display: flex;
+  flex-grow: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .menu-list {
+    width: 30rem;
+  }
+}

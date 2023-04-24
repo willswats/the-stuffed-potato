@@ -1,0 +1,22 @@
+.order {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../public/jarritos-mexican-soda-unsplash-potato.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.order__link-button-svgs {
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .order__link-button-svgs {
+    flex-direction: column;
+  }
+}
