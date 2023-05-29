@@ -4,9 +4,10 @@ A website I created while at work experience.
 
 ## Install
 
-1. `cd` to this projects' directory.
-2. Run `pnpm install` to install the projects' dependencies.
-3. Run `pnpm dev` to run the server locally.
+1. Install [pnpm](https://pnpm.io/installation).
+2. `cd` to this projects' directory.
+3. Run `pnpm install` to install the projects' dependencies.
+4. Run `pnpm dev` to run the server locally.
 
 ## Acknowledgements
 
