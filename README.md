@@ -2,6 +2,12 @@
 
 A website for a takeaway restraunt.
 
+## Table of Contents
+
+- [General Information](#general-information)
+- [Install](#install)
+- [Acknowledgements](#acknowledgements)
+
 ## General Information
 
 This project was built within one week while at a work placement. It was built with [Next.js](https://nextjs.org/).
