@@ -1,6 +1,10 @@
 # The Stuffed Potato
 
-A website I created while at work experience.
+A website for a takeaway restraunt.
+
+## General Information
+
+This project was built within one week while at a work placement. It was built with [Next.js](https://nextjs.org/).
 
 ## Install
 
