@@ -10,7 +10,7 @@ A website for a takeaway restraunt.
 
 ## General Information
 
-This project was built within one week while at a work placement. It was built with [Next.js](https://nextjs.org/).
+This project was built within one week during work experience. It was built with [Next.js](https://nextjs.org/).
 
 ## Install
 
