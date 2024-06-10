@@ -1,6 +1,6 @@
 # The Stuffed Potato
 
-A website for a takeaway restraunt.
+An example website for a takeaway restaurant.
 
 ## Table of Contents
 
@@ -10,7 +10,7 @@ A website for a takeaway restraunt.
 
 ## General Information
 
-This project was built within one week during work experience. It was built with [Next.js](https://nextjs.org/).
+During work experience, a local takeaway restaurant needed a new website, therefore, I was tasked with building an example of what it could look like. It was built within one week and it was the first time that I used Next.js.
 
 ## Install
 
