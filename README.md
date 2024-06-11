@@ -14,6 +14,8 @@ An example website for a takeaway restaurant.
 
 During work experience, a local takeaway restaurant needed a new website, therefore, I was tasked with building an example of what it could look like. It was built within one week and it was the first time that I used Next.js.
 
+The menu data is separate from the JSX, therefore, the data could be easily replaced with data from an API. The `MenuList` component is dynamic and populates itself depending upon the amount of data provided to it by utilising JavaScript's `map()` method.
+
 ## Install
 
 1. Install [pnpm](https://pnpm.io/installation).
