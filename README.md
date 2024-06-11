@@ -23,7 +23,7 @@ During work experience, a local takeaway restaurant needed a new website, theref
 
 ## Acknowledgements
 
-The SVGs are from [svgrepo](https://svgrepo.com).
+The SVGs are from [svgrepo](https://svgrepo.com) and [Remix Icon](https://github.com/Remix-Design/remixicon).
 
 The images are from [Unsplash](https://unsplash.com):
 
