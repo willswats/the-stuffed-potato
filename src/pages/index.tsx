@@ -10,8 +10,8 @@ export default function Home() {
       <Head>
         <title>The Stuffed Potato</title>
       </Head>
-      <main className={styles.main}>
-        <section className={styles.home}>
+      <main className={styles.home}>
+        <section className={styles.home__content}>
           <h1 className={styles.home__title}>The Stuffed Potato</h1>
           <p className={styles.home__address}>133 Example, Example City</p>
           <p className={styles.home__phone}>(123) 456-7890</p>
