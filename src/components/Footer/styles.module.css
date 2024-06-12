@@ -4,14 +4,15 @@
   justify-content: center;
 }
 
-.footer__svg {
-  fill: rgba(255, 255, 255, 1);
-  margin-right: 5px;
+.footer a {
   cursor: pointer;
 }
 
-.footer__link {
-  color: rgba(255, 255, 255, 1);
-  text-decoration: none;
-  cursor: pointer;
+.footer svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 5px;
 }
