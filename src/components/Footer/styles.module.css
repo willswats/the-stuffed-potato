@@ -1,0 +1,17 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.svg {
+  fill: rgba(255, 255, 255, 0.5);
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.link {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  cursor: pointer;
+}

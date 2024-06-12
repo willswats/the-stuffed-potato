@@ -25,7 +25,7 @@ The menu data is separate from the JSX, therefore, the data could be easily repl
 
 ## Acknowledgements
 
-The SVGs are from [svgrepo](https://svgrepo.com).
+The SVGs are from [svgrepo](https://svgrepo.com) and [Remix Icon](https://github.com/Remix-Design/remixicon).
 
 The images are from [Unsplash](https://unsplash.com):
 
