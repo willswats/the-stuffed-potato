@@ -14,7 +14,6 @@ import {
 import { NavBar, MenuList } from "@/components";
 
 import styles from "@/styles/Menu.module.css";
-import { Footer } from "@/components/Footer";
 
 export default function Menu() {
   return (
@@ -44,40 +43,34 @@ export default function Menu() {
       </Head>
 
       <NavBar />
-      <main className={styles.main}>
-        <section className={styles.menu}>
-          <MenuList
-            title="Standard Jacket Potato"
-            menuList={menuStandardJacketPotato}
-          />
+      <main className={styles.menu}>
+        <MenuList
+          title="Standard Jacket Potato"
+          menuList={menuStandardJacketPotato}
+        />
 
-          <MenuList
-            title="Classic Jacket Potato"
-            menuList={menuClassicJacketPotato}
-          />
+        <MenuList
+          title="Classic Jacket Potato"
+          menuList={menuClassicJacketPotato}
+        />
 
-          <MenuList
-            title="Deluxe Jacket Potato"
-            menuList={menuDeluxeJacketPotato}
-          />
+        <MenuList
+          title="Deluxe Jacket Potato"
+          menuList={menuDeluxeJacketPotato}
+        />
 
-          <MenuList
-            title="Zapiekanka Jacket Potato"
-            menuList={menuZapiekanka}
-          />
+        <MenuList title="Zapiekanka Jacket Potato" menuList={menuZapiekanka} />
 
-          <MenuList title="Homemade Burgers" menuList={menuHomemadeBurgers} />
+        <MenuList title="Homemade Burgers" menuList={menuHomemadeBurgers} />
 
-          <MenuList title="Drinks" menuList={menuDrinks} />
+        <MenuList title="Drinks" menuList={menuDrinks} />
 
-          <MenuList title="Sweets" menuList={menuSweets} />
+        <MenuList title="Sweets" menuList={menuSweets} />
 
-          <MenuList
-            title="Sunday Roast - Sunday Only, From 12:00"
-            menuList={menuSundayRoast}
-          />
-        </section>
-        <Footer />
+        <MenuList
+          title="Sunday Roast - Sunday Only, From 12:00"
+          menuList={menuSundayRoast}
+        />
       </main>
     </>
   );

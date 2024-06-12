@@ -3,7 +3,6 @@ import Head from "next/head";
 import { NavBar } from "@/components";
 
 import styles from "@/styles/404.module.css";
-import { Footer } from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -32,13 +31,10 @@ export default function Home() {
         <link rel="manifest" href="/favicon/site.webmanifest" />
       </Head>
       <NavBar />
-      <main className={styles.main}>
-        <section className={styles["four-zero-four"]}>
-          <h1 className={styles["four-zero-four__title"]}>
-            404 - Page Not Found
-          </h1>
-        </section>
-        <Footer />
+      <main className={styles["four-zero-four"]}>
+        <h1 className={styles["four-zero-four__title"]}>
+          404 - Page Not Found
+        </h1>
       </main>
     </>
   );

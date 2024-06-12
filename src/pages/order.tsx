@@ -6,7 +6,6 @@ import SvgJustEat from "../../public/just-eat.svg";
 import { NavBar, LinkButtonSvg } from "@/components";
 
 import styles from "@/styles/Order.module.css";
-import { Footer } from "@/components/Footer";
 
 export default function Order() {
   return (
@@ -35,21 +34,18 @@ export default function Order() {
         <link rel="manifest" href="/favicon/site.webmanifest" />
       </Head>
 
-      <main className={styles.main}>
-        <section className={styles.order}>
-          <NavBar />
-          <div className={styles["order__link-button-svgs"]}>
-            <LinkButtonSvg
-              url="https://deliveroo.co.uk/"
-              svgComponent={<SvgDeliveroo />}
-            />
-            <LinkButtonSvg
-              url="https://www.just-eat.co.uk/"
-              svgComponent={<SvgJustEat />}
-            />
-          </div>
-        </section>
-        <Footer />
+      <main className={styles.order}>
+        <NavBar />
+        <div className={styles["order__link-button-svgs"]}>
+          <LinkButtonSvg
+            url="https://deliveroo.co.uk/"
+            svgComponent={<SvgDeliveroo />}
+          />
+          <LinkButtonSvg
+            url="https://www.just-eat.co.uk/"
+            svgComponent={<SvgJustEat />}
+          />
+        </div>
       </main>
     </>
   );
