@@ -7,11 +7,18 @@ export const Footer = () => {
     <footer className={styles["footer"]}>
       <a
         className={styles["link"]}
-        href="https://github.com/willswats/react-calculator"
+        href="https://github.com/willswats/the-stuffed-potato"
+        target="_blank"
+        rel="noopener noreferrer"
       >
         <SvgGitHub className={styles["svg"]} />
       </a>
-      <a className={styles["link"]} href="https://williamwatson.dev">
+      <a
+        className={styles["link"]}
+        href="https://williamwatson.dev"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         williamwatson.dev
       </a>
     </footer>
