@@ -1,6 +1,6 @@
 import styles from "./styles.module.css";
 
-import SvgGitHub from "../../../public/github-fill.svg";
+import SvgGitHub from "public/svgs/github-fill.svg";
 
 export const Footer = () => {
   return (

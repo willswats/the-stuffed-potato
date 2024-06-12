@@ -1,7 +1,7 @@
 import Head from "next/head";
 
-import SvgDeliveroo from "../../public/deliveroo.svg";
-import SvgJustEat from "../../public/just-eat.svg";
+import SvgDeliveroo from "public/svgs/deliveroo.svg";
+import SvgJustEat from "public/svgs/just-eat.svg";
 
 import { NavBar, LinkButtonSvg } from "@/components";
 

@@ -6,7 +6,7 @@
   padding: 6rem;
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../../public/monika-grabkowska-unsplash.jpg");
+    url("../../public/images/monika-grabkowska-unsplash.jpg");
   background-size: 4000px 6000px;
   background-position: 0px 0px;
 }

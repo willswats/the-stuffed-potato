@@ -1,5 +1,5 @@
-import SvgArrowUp from "../../../public/arrow-up.svg";
-import SvgArrowDown from "../../../public/arrow-down.svg";
+import SvgArrowUp from "public/svgs/arrow-up.svg";
+import SvgArrowDown from "public/svgs/arrow-down.svg";
 
 import styles from "./styles.module.css";
 
