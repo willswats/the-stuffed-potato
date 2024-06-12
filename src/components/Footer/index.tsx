@@ -6,15 +6,15 @@ export const Footer = () => {
   return (
     <footer className={styles["footer"]}>
       <a
-        className={styles["link"]}
+        className={styles["footer__link"]}
         href="https://github.com/willswats/the-stuffed-potato"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <SvgGitHub className={styles["svg"]} />
+        <SvgGitHub className={styles["footer__svg"]} />
       </a>
       <a
-        className={styles["link"]}
+        className={styles["footer__link"]}
         href="https://williamwatson.dev"
         target="_blank"
         rel="noopener noreferrer"
