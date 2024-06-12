@@ -5,3 +5,4 @@ export * from "./LinkButtonSvg";
 export * from "./NavBar";
 export * from "./NavBarLink";
 export * from "./ButtonArrowUpDown";
+export * from "./Footer";
