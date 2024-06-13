@@ -6,3 +6,4 @@ export * from "./NavBar";
 export * from "./NavBarLink";
 export * from "./ButtonArrowUpDown";
 export * from "./Footer";
+export * from "./BackgroundImage";

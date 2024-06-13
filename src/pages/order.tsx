@@ -3,7 +3,9 @@ import Head from "next/head";
 import SvgDeliveroo from "public/svgs/deliveroo.svg";
 import SvgJustEat from "public/svgs/just-eat.svg";
 
-import { NavBar, LinkButtonSvg } from "@/components";
+import { NavBar, LinkButtonSvg, BackgroundImage } from "@/components";
+
+import backgroundImageSrc from "public/images/jarritos-mexican-soda-unsplash-potato.jpg";
 
 import styles from "@/styles/Order.module.css";
 
@@ -15,6 +17,7 @@ export default function Order() {
       </Head>
 
       <main className={styles.order}>
+        <BackgroundImage src={backgroundImageSrc} alt="A jacket potato" />
         <NavBar />
         <div className={styles["order__link-button-svgs"]}>
           <LinkButtonSvg

@@ -11,7 +11,9 @@ import {
   menuZapiekanka,
 } from "@/data/menu";
 
-import { NavBar, MenuList } from "@/components";
+import { NavBar, MenuList, BackgroundImage } from "@/components";
+
+import backgroundImageSrc from "public/images/monika-grabkowska-unsplash.jpg";
 
 import styles from "@/styles/Menu.module.css";
 
@@ -24,6 +26,12 @@ export default function Menu() {
 
       <NavBar />
       <main className={styles.menu}>
+        <BackgroundImage
+          src={backgroundImageSrc}
+          alt="Potato salad"
+          style={{ objectPosition: "0 0" }}
+        />
+
         <MenuList
           title="Standard Jacket Potato"
           menuList={menuStandardJacketPotato}

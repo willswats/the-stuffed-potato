@@ -2,10 +2,7 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../../public/images/mahmoud-fawzy-unsplash-baked-potato.jpg");
-  background-size: cover;
-  background-position: center;
+  position: relative;
 }
 
 .home__content {
