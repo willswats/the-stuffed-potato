@@ -26,11 +26,7 @@ export default function Menu() {
 
       <NavBar />
       <main className={styles.menu}>
-        <BackgroundImage
-          src={backgroundImageSrc}
-          alt="Potato salad"
-          style={{ objectPosition: "0 0" }}
-        />
+        <BackgroundImage src={backgroundImageSrc} alt="Potato salad" />
 
         <MenuList
           title="Standard Jacket Potato"
