@@ -1,6 +1,8 @@
 import Head from "next/head";
 
-import { LinkButton, Footer } from "@/components";
+import { LinkButton, Footer, BackgroundImage } from "@/components";
+
+import backgroundImageSrc from "public/images/mahmoud-fawzy-unsplash-baked-potato.jpg";
 
 import styles from "@/styles/Home.module.css";
 
@@ -11,6 +13,7 @@ export default function Home() {
         <title>The Stuffed Potato</title>
       </Head>
       <main className={styles.home}>
+        <BackgroundImage src={backgroundImageSrc} alt="Baked potatoes" />
         <section className={styles.home__content}>
           <h1 className={styles.home__title}>The Stuffed Potato</h1>
           <p className={styles.home__address}>133 Example, Example City</p>
