@@ -1,23 +1,28 @@
 import Image, { StaticImageData } from "next/image";
-import { CSSProperties } from "react";
 
 import styles from "./styles.module.css";
 
 interface BackgroundImageProps {
   src: StaticImageData;
+  width: number;
+  height: number;
   alt: string;
-  style?: CSSProperties;
 }
 
-export const BackgroundImage = ({ src, alt, style }: BackgroundImageProps) => {
+export const BackgroundImage = ({
+  src,
+  width,
+  height,
+  alt,
+}: BackgroundImageProps) => {
   return (
     <Image
       className={styles["background-image"]}
       src={src}
       alt={alt}
-      fill={true}
+      width={width}
+      height={height}
       priority={true}
-      style={style}
     />
   );
 };

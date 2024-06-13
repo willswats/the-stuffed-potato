@@ -17,7 +17,12 @@ export default function Order() {
       </Head>
 
       <main className={styles.order}>
-        <BackgroundImage src={backgroundImageSrc} alt="A jacket potato" />
+        <BackgroundImage
+          src={backgroundImageSrc}
+          width={3840}
+          height={5760}
+          alt="A jacket potato"
+        />
         <NavBar />
         <div className={styles["order__link-button-svgs"]}>
           <LinkButtonSvg

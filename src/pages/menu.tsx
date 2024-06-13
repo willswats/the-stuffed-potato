@@ -26,7 +26,12 @@ export default function Menu() {
 
       <NavBar />
       <main className={styles.menu}>
-        <BackgroundImage src={backgroundImageSrc} alt="Potato salad" />
+        <BackgroundImage
+          src={backgroundImageSrc}
+          width={4000}
+          height={6000}
+          alt="Potato salad"
+        />
 
         <MenuList
           title="Standard Jacket Potato"

@@ -13,7 +13,12 @@ export default function Home() {
         <title>The Stuffed Potato</title>
       </Head>
       <main className={styles.home}>
-        <BackgroundImage src={backgroundImageSrc} alt="Baked potatoes" />
+        <BackgroundImage
+          src={backgroundImageSrc}
+          width={6000}
+          height={4000}
+          alt="Baked potatoes"
+        />
         <section className={styles.home__content}>
           <h1 className={styles.home__title}>The Stuffed Potato</h1>
           <p className={styles.home__address}>133 Example, Example City</p>

@@ -14,7 +14,12 @@ export default function Home() {
       </Head>
       <NavBar />
       <main className={styles["four-zero-four"]}>
-        <BackgroundImage src={backgroundImageSrc} alt="A bowl of potatoes" />
+        <BackgroundImage
+          src={backgroundImageSrc}
+          width={2400}
+          height={1600}
+          alt="A bowl of potatoes"
+        />
         <h1 className={styles["four-zero-four__title"]}>
           404 - Page Not Found
         </h1>
