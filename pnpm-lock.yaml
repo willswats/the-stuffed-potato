@@ -9,8 +9,8 @@ dependencies:
     specifier: ^8.1.0
     version: 8.1.0(typescript@5.5.4)
   '@types/node':
-    specifier: 20.15.0
-    version: 20.15.0
+    specifier: 20.16.2
+    version: 20.16.2
   '@types/react':
     specifier: 18.3.5
     version: 18.3.5
@@ -1797,10 +1797,10 @@ packages:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
     dev: false
 
-  /@types/node@20.15.0:
-    resolution: {integrity: sha512-eQf4OkH6gA9v1W0iEpht/neozCsZKMTK+C4cU6/fv7wtJCCL8LEQ4hie2Ln8ZP/0YYM2xGj7//f8xyqItkJ6QA==}
+  /@types/node@20.16.2:
+    resolution: {integrity: sha512-91s/n4qUPV/wg8eE9KHYW1kouTfDk2FPGjXbBMfRWP/2vg1rCXNQL1OCabwGs0XSdukuK+MwCDXE30QpSeMUhQ==}
     dependencies:
-      undici-types: 6.13.0
+      undici-types: 6.19.8
     dev: false
 
   /@types/prop-types@15.7.12:
@@ -4253,8 +4253,8 @@ packages:
       which-boxed-primitive: 1.0.2
     dev: false
 
-  /undici-types@6.13.0:
-    resolution: {integrity: sha512-xtFJHudx8S2DSoujjMd1WeWvn7KKWFRESZTMeL1RptAYERu29D6jphMjjY+vn96jvN3kVPDNxU/E13VTaXj6jg==}
+  /undici-types@6.19.8:
+    resolution: {integrity: sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw==}
     dev: false
 
   /unicode-canonical-property-names-ecmascript@2.0.0:
