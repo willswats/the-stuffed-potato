@@ -23,6 +23,7 @@ export const BackgroundImage = ({
       width={width}
       height={height}
       priority={true}
+      quality={1}
     />
   );
 };
