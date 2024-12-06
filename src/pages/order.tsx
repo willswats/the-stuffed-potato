@@ -1,11 +1,12 @@
 import Head from "next/head";
 
-import SvgDeliveroo from "public/svgs/deliveroo.svg";
-import SvgJustEat from "public/svgs/just-eat.svg";
-
-import { NavBar, LinkButtonSvg, BackgroundImage } from "@/components";
-
-import backgroundImageSrc from "public/images/jarritos-mexican-soda-unsplash-potato.jpg";
+import {
+  NavBar,
+  LinkButtonSvg,
+  BackgroundImage,
+  SvgDeliveroo,
+  SvgJustEat,
+} from "@/components";
 
 import styles from "@/styles/Order.module.css";
 
@@ -18,7 +19,7 @@ export default function Order() {
 
       <main className={styles.order}>
         <BackgroundImage
-          src={backgroundImageSrc}
+          src="/images/jarritos-mexican-soda-unsplash-potato.jpg"
           width={3840}
           height={5760}
           alt="A jacket potato"

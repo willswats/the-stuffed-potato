@@ -2,8 +2,6 @@ import Head from "next/head";
 
 import { NavBar, BackgroundImage } from "@/components";
 
-import backgroundImageSrc from "public/images/clark-douglas-unsplash.jpg";
-
 import styles from "@/styles/404.module.css";
 
 export default function Home() {
@@ -15,7 +13,7 @@ export default function Home() {
       <NavBar />
       <main className={styles["four-zero-four"]}>
         <BackgroundImage
-          src={backgroundImageSrc}
+          src="/images/clark-douglas-unsplash.jpg"
           width={2400}
           height={1600}
           alt="A bowl of potatoes"

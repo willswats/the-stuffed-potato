@@ -2,8 +2,6 @@ import Head from "next/head";
 
 import { LinkButton, Footer, BackgroundImage } from "@/components";
 
-import backgroundImageSrc from "public/images/mahmoud-fawzy-unsplash-baked-potato.jpg";
-
 import styles from "@/styles/Home.module.css";
 
 export default function Home() {
@@ -14,7 +12,7 @@ export default function Home() {
       </Head>
       <main className={styles.home}>
         <BackgroundImage
-          src={backgroundImageSrc}
+          src="/images/mahmoud-fawzy-unsplash-baked-potato.jpg"
           width={6000}
           height={4000}
           alt="Baked potatoes"

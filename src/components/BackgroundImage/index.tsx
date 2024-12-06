@@ -1,9 +1,9 @@
-import Image, { StaticImageData } from "next/image";
+import Image from "next/image";
 
 import styles from "./styles.module.css";
 
 interface BackgroundImageProps {
-  src: StaticImageData;
+  src: string;
   width: number;
   height: number;
   alt: string;

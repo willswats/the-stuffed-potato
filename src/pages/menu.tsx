@@ -13,8 +13,6 @@ import {
 
 import { NavBar, MenuList, BackgroundImage } from "@/components";
 
-import backgroundImageSrc from "public/images/monika-grabkowska-unsplash.jpg";
-
 import styles from "@/styles/Menu.module.css";
 
 export default function Menu() {
@@ -27,7 +25,7 @@ export default function Menu() {
       <NavBar />
       <main className={styles.menu}>
         <BackgroundImage
-          src={backgroundImageSrc}
+          src="/images/monika-grabkowska-unsplash.jpg"
           width={4000}
           height={6000}
           alt="Potato salad"

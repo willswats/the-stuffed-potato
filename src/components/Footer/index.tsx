@@ -1,6 +1,6 @@
 import styles from "./styles.module.css";
 
-import SvgGitHub from "public/svgs/github-fill.svg";
+import { SvgGitHubFill } from "@/components";
 
 export const Footer = () => {
   return (
@@ -10,7 +10,7 @@ export const Footer = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <SvgGitHub />
+        <SvgGitHubFill />
       </a>
       <a
         href="https://williamwatson.dev"
