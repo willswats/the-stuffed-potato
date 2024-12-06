@@ -14,9 +14,8 @@ interface MenuListProps {
 export const MenuList = ({ title, menuList }: MenuListProps) => {
   const [menuListHidden, setMenuListHidden] = useState(true);
 
-  const handleHideClick = () => {
+  const handleHideClick = () =>
     !menuListHidden ? setMenuListHidden(true) : setMenuListHidden(false);
-  };
 
   return (
     <div className={styles["menu-list"]}>
