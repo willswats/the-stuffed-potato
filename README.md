@@ -2,8 +2,6 @@
 
 An example website for a takeaway restaurant.
 
-[the-stuffed-potato.vercel.app](https://the-stuffed-potato.vercel.app/)
-
 ## Table of Contents
 
 - [General Information](#general-information)
